@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">Yanius</string>
+    <string name="settings">Settings</string>
+
+    <string name="pref_darkmode">Dark mode</string>
+    <string name="pref_darkmode_description">Protects eyes and battery!</string>
+
+    <string name="yanius_settings">Yanius Settings</string>
+    <string name="misc_settings">Miscellaneous Settings</string>
+
+    <string name="pref_yanius_instance">Address</string>
+    <string name="pref_yanius_instance_default" translatable="false">http://ss.example.com</string>
+
+    <string name="pref_yanius_apikey">API Key</string>
+    <string name="pref_yanius_apikey_default" translatable="false">changeme</string>
+
+    <string name="choose_file">Choose file</string>
+    <string name="no_data_received">No data received</string>
+    <string name="url_copied">URL copied to clipboard</string>
+
+    <string name="uploading">Uploading...</string>
+    <string name="errored">Failed</string>
+    <string name="file_not_found">File not found</string>
+
+</resources>

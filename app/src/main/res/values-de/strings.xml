@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_file">Datei auswählen</string>
+    <string name="errored">Fehlgeschlagen</string>
+    <string name="misc_settings">Sonstige Einstellungen</string>
+    <string name="no_data_received">Keine Daten erhalten</string>
+    <string name="pref_darkmode">Nachtmodus</string>
+    <string name="pref_darkmode_description">Gut für Augen und Handy!</string>
+    <string name="pref_yanius_apikey">API Key</string>
+    <string name="pref_yanius_instance">Adresse</string>
+    <string name="settings">Einstellungen</string>
+    <string name="uploading">Lädt hoch...</string>
+    <string name="url_copied">URL in die Zwischenablage kopiert</string>
+    <string name="yanius_settings">Yanius Einstellungen</string>
+    <string name="file_not_found">Datei nicht gefunden</string>
+</resources>

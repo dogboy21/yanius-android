@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:itemBackground">@color/colorBackgroundDark</item>
+
+        <item name="android:windowBackground">@color/colorBackgroundDark</item>
+        <item name="android:colorBackground">@color/colorBackgroundDark</item>
+        <item name="android:colorForeground">@color/colorForegroundDark</item>
+        <item name="android:colorForegroundInverse">@color/colorForegroundDark</item>
+        <item name="android:textColor">@color/colorForegroundDark</item>
+        <item name="android:textColorSecondary">@color/colorForegroundDark</item>
+        <item name="android:editTextColor">@color/colorForegroundDark</item>
+        <item name="android:alertDialogTheme">@style/DarkAlertDialog</item>
+    </style>
+
+    <style name="DarkAlertDialog" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/colorBackgroundDark</item>
+        <item name="background">@color/colorBackgroundDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

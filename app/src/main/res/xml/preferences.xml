@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/yanius_settings">
+        <EditTextPreference
+            android:key="pref_yanius_instance"
+            android:title="@string/pref_yanius_instance"
+            android:inputType="textUri"
+            android:capitalize="none"
+            android:maxLines="1"
+            android:defaultValue="@string/pref_yanius_instance_default" />
+
+        <EditTextPreference
+            android:key="pref_yanius_apikey"
+            android:title="@string/pref_yanius_apikey"
+            android:inputType="textUri"
+            android:capitalize="none"
+            android:maxLines="1"
+            android:defaultValue="@string/pref_yanius_apikey_default" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/misc_settings">
+        <SwitchPreference
+            android:key="pref_darkmode"
+            android:title="@string/pref_darkmode"
+            android:defaultValue="false"
+            android:summary="@string/pref_darkmode_description" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
